@@ -9,6 +9,7 @@ export default defineConfig({
   reporter: 'html',
   
   use: {
+    baseURL: 'https://bugbank.netlify.app',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
